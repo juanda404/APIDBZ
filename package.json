@@ -10,5 +10,8 @@
     "API"
   ],
   "author": "Juan David Santamaria <juandavidsantamariag@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.13.3"
+  }
 }
