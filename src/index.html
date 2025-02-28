@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dragon ball z</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/Musett-Dragon-Ballz-Dragon-Ball.ico">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/Musett-Dragon-Ballz-Dragon-Ball.ico">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/Musett-Dragon-Ballz-Dragon-Ball.ico">
-    <link rel="stylesheet" type="text/css" href="/src/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/src/assets/icons/Musett-Dragon-Ballz-Dragon-Ball.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/src/assets/icons/Musett-Dragon-Ballz-Dragon-Ball.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/src/assets/icons/Musett-Dragon-Ballz-Dragon-Ball.ico">
+    <link rel="stylesheet" type="text/css" href="/src/styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Welcome to  Dragon Ball Z</h1>
-        <nav class="navbar">
-            <ul>
+    <header class="header">
+        <h1 class="header-titile">Welcome to  Dragon Ball Z</h1>
+        <nav class="header-nav">
+            <ul class="hearder-navlist">
                 <li><a href="#overview">Overview</a></li>
-                <li><a href="#characters">Characters</a></li>
+                <li><a href="/src/pages/characters.html">Characters</a></li>
                 <li><a href="#locations">Locations</a></li>
                 <li><a href="#special-abilities">Special Abilities</a></li>
             </ul>
@@ -32,16 +32,16 @@
             <p> 💥 Are you ready to power up and discover more? 💥</p>
             <p> 🚀 Start your adventure now! 🚀</p>
         </section>
-        <section>
-            <video autoplay loop>
-                <source src="/assets/video/DBZ1.mp4" type="video/mp4">
+        <section class="container">
+            <video  class="container-video" autoplay loop>
+                <source src="/src/assets/video/DBZ1.mp4" type="video/mp4">
             </video>
         </section>
     </main>
-    <footer>
+    <footer >
         <p>�� 2022 Dragon Ball API. All rights reserved.</p>
         <p>Designed by: <a href="https://www.linkedin.com/in//juan-david-santamaria/">Juan David Santamaria</a></p>
     </footer>
-    <script src="/src/index.js"></script>
+    <script defer  src="/src/index.js"></script>
 </body>
 </html>
