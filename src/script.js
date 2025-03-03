@@ -5,7 +5,7 @@ const API = "https://dragonball-api.com/api/characters";
 async function reload(){
     const response = await fetch(API);
     const data = await response.json();
-    console.log(data.items[0].name);
+    console.log(data);
 
    const output = data.items?.map(item =>{
      return `<article class='card'>
@@ -21,7 +21,7 @@ async function reload(){
                                </ul>
                         </div>
                     </article>`;
-   });
+   }).join('');
 
 
    let newItem = document.createElement('section');
