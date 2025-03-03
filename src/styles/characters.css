@@ -17,6 +17,7 @@ body{
     align-items: center;
     row-gap: 10px;
     width: 100%;
+    
 }
 
 .header-titile{
@@ -46,6 +47,19 @@ a{
 }
 a:visited{
     text-decoration: none;
+}
+
+
+
+.container-navigation{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-button{
+    color: black; 
+    padding: 2px;
+    border-radius: 30%;
 }
 
 footer{
