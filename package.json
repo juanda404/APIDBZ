@@ -2,9 +2,10 @@
   "name": "parcel",
   "version": "1.0.0",
   "description": "landinpage de dragon ball z, consumo de API",
-  "main": "index.js",
+  "source": "/src/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel serve --port 8080 src/index.html",
+    "build": "parcel build src/index.html --public-url ./"
   },
   "keywords": [
     "API"
@@ -12,6 +13,7 @@
   "author": "Juan David Santamaria <juandavidsantamariag@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "parcel": "^2.13.3"
+    "parcel": "^2.13.3",
+    "posthtml-include": "^2.0.1"
   }
 }
